@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    background-color: #111;
+}
+.heading-1 {
+    transition: all .3s;
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding: 3rem;
+    color: #eee;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.heading-1:hover {
+    transform: skewX(10deg) skewY(5deg);
+    -webkit-transform: skewX(10deg) skewY(5deg);
+    -moz-transform: skewX(10deg) skewY(5deg);
+    -ms-transform: skewX(10deg) skewY(5deg);
+    -o-transform: skewX(10deg) skewY(5deg);
+    letter-spacing: .5rem;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 8rem);
+}
+.color-card {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eee;
+    background-color: #111;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    cursor: pointer;
+    background: none;
+    padding: 1rem 3rem;
+    border: 2px solid #111;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+.btn:hover {
+    background-color: #111;
+    padding: 1.2rem 3.2rem;
+    border: none;
+    color: #eee;
+    transform: translateY(-.5rem);
+    -webkit-transform: translateY(-.5rem);
+    -moz-transform: translateY(-.5rem);
+    -ms-transform: translateY(-.5rem);
+    -o-transform: translateY(-.5rem);
+}
